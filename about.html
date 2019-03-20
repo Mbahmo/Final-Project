@@ -1,0 +1,89 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Anthony Lee</title>
+        <link rel="stylesheet" href="styles2.css">
+        <link rel="stylesheet" href="assets/css/lightgallery.min.css">
+        <link rel="stylesheet" href="http://vjs.zencdn.net/4.12/video-js.css"> 
+        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="image/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    </head>
+    <body>
+        <div class="home">
+        <div class="container">
+            
+            <div class="left-bg">
+            </div><div class="card">
+                <input type="checkbox" name="#">
+                <div class="toggle">+</div>
+                <div class="imgBx"><img src="image/image.jpg" width="400px" alt="Image"></div>
+                <div class="details">
+                    <h1 class="post-header">Anthony Lee</h1>
+                    <h3 class="date">7 July 2000</h3>
+                    <p class="paragraph">
+                        An Indonesian-Chinese that have live in Bali for 8 years.
+                        Born and raised at Magelang.
+                        <br><br>
+                        Adddres : Denpasar
+                        <br>
+                        Job : Bachelor Student
+                        <br>
+                        Hobby : Programming, Shitposting, Idoling
+                        <br>
+                        Status : Single :(
+                        <br>
+                        Like : K-pop, Anime, Tokusatsu, Tech
+                        <br>
+                        Dislike : Arrogant People, College
+                        <br>
+                        Korean Bias : Seo Hye-lin
+                    </p>
+                </div>
+            </div>
+            <div class="right-bg">
+            </div>
+        </div>
+        <div style="display:none;" id="video2">
+            <video class="lg-video-object lg-html5" controls="" preload="none">
+                <source src="videos/video2.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        
+        <div class="cont">
+            <div class="page-head">
+                <h1>Liked K-Pop Videos ♥</h1>
+            </div>
+        
+            <div class="demo-gallery">
+                <ul id="lightgallery">
+                   
+                    <li class="video" data-html="#video2" data-poster="image/thumb2.jpg">
+                        <a href="">
+                            <img class="img-responsive" src="image/thumb2.jpg">
+                            <div class="demo-gallery-poster">
+                                <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
+                            </div>
+                        </a>
+                    </li>
+                  
+                </ul>
+            </div>
+        </div>
+</div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="assets/js/lightgallery-all.min.js"></script>
+    <script src="http://vjs.zencdn.net/4.12/video.js"></script>
+    <script src="http://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+    <script src="modules/lg-thumbnail.min.js"></script>
+    <script src="modules/lg-video.min.js"></script>
+            <script>
+               $(document).ready(function () {
+                    $('#lightgallery').lightGallery();
+                });
+            </script>
+    </body>
+</html>
